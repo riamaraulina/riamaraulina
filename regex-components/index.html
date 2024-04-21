@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="https://1.bp.blogspot.com/-xqJZIyNpxzQ/YZbLaDFZ2ZI/AAAAAAAAThk/FKzjx3AH95U8FM5AJInhzsBIDAKMeY9hwCLcBGAsYHQ/s1575/Kampus+Merdeka.png">
+	<link href="style/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gradient-to-r from-indigo-800 black-600 to-black-500 p-6" >
+    <h1 class=" text-center text-3xl font-bold mb-4 font-serif">Daftar Akun Kelas Salon </h1>
+    <div class="grid grid-cols-2 gap-4 pt-8">
+        <div class="bg-gray-300 p-6 rounded-lg shadow-md">
+
+            <!-- Form Nama -->
+            <label for="nama" class="block text-sm font-medium text-gray-800 pt">Nama</label>
+            <input type="text" id="nama" class="mt-1 focus:ring-indigo-500 focus:border-indigo-800 block w-full shadow-sm sm:text-sm border-gray-400 rounded-md">
+            <span id="nama-error" class="text-sm text-red-600"></span>
+        </div>
+
+        <div class="bg-gray-200 p-6 rounded-md shadow-md">
+            <!-- Form Email -->
+            <label for="email" class="block text-sm font-medium text-gray-800">Email</label>
+            <input type="email" id="email" class="mt-1 focus:ring-indigo-600 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+            <span id="email-error" class="text-sm text-red-600"></span>
+        </div>
+    </div>
+
+   
+    <div class="grid grid-cols-2 gap-4 mt-6">
+        <div class="bg-gray-300 p-6 rounded-md shadow-md">
+            <!-- Form Password -->
+            <label for="password" class="block text-sm font-medium text-gray-800">Password</label>
+            <input type="password" id="password" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+            <span id="password-error" class="text-sm text-red-400"></span>
+        </div>
+
+        <div class="bg-gray-200 p-6 rounded-md shadow-md">
+            <!-- Form Nomor Telepon -->
+            <label for="telepon" class="block text-sm font-medium text-gray-800">Nomor Telepon</label>
+            <input type="tel" id="telepon" class="mt-1 focus:ring-indigo-400 focus:border-indigo-400 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+            <span id="telepon-error" class="text-sm text-red-400"></span>
+        </div>
+    </div>
+
+    
+    <div class="grid grid-cols-2 gap-4 mt-6">
+        <div class="bg-gray-100 p-6 rounded-md shadow-md">
+            <!-- Form Umur -->
+            <label for="umur" class="block text-sm font-medium text-gray-800">Umur (tahun)</label>
+            <input type="number" id="umur" class="mt-1 focus:ring-indigo-500 focus:border-indigo-400 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+            <span id="umur-error" class="text-sm text-red-400"></span>
+        </div>
+        <div class="p-6 flex justify-end">
+            <button class="bg-black text-white px-6 py-2 rounded-md mr-4 font-serif">Submit</button>
+            <button class="bg-black text-white px-6 py-2 rounded-md font-serif">Cancel</button>
+        </div>
+        
+    <!-- <style>
+        body {
+            background-image: url('https://brokenbowranch.net/wp-content/uploads/2023/10/IMG_1935-1024x768.jpg');
+            background-size: cover; 
+            background-position: center; 
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+    </style> -->
+    <script src="script.js"></script>
+</body>
+</html>
+<div class="bg-gray-200 p-6 rounded-md shadow-md">
+    <!-- Form Email -->
+    <label for="email" class="block text-sm font-medium text-gray-800">Email</label>
+    <input type="email" id="email" class="mt-1 focus:ring-indigo-600 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+    <span id="email-error" class="text-sm text-red-600"></span>
+</div>
+</div>
